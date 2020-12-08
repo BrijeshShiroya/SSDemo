@@ -1,6 +1,6 @@
 # SSDemo
 ## Purpose
-To learn react-native with flow-type and write testcase using testing libraries.
+To learn react-native with prop-type and write testcase using testing libraries.
 
 It includes hooks like useEffect, useState, useCallBack, also contains redux and redux saga with redux hooks like useDispatch, useSelector.
 
