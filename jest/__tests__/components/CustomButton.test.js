@@ -21,3 +21,10 @@ it('CustomButton disable', () => {
   const customButtonComponent = renderer.create(<CustomButton disabled />);
   expect(customButtonComponent).toMatchSnapshot();
 });
+
+it('CustomButton with title', () => {
+  const customButtonComponent = renderer.create(
+    <CustomButton title={'Header'} />
+  );
+  expect(customButtonComponent).toMatchSnapshot();
+});
